@@ -1,0 +1,48 @@
+h1{
+  text-align: center;
+  color: black;
+}
+
+#emphasis{
+  color: red;
+}
+
+.emphasis{
+  color:darkred;
+}
+
+body{
+  width:600px;
+  margin:auto;
+  background-color: lightgrey;
+}
+
+.div1{
+  min-width: 600px;
+  width:80%;
+  margin: auto;
+  overflow: hidden;
+  }
+
+.content{
+      font-family: sans-serif;
+  }
+
+.content li{
+  display:inline;
+  padding-right: 15px;
+
+}
+
+ul a {
+  text-decoration: none;
+}
+
+li a:hover{
+  text-decoration: underline;
+  color:yellow;
+}
+
+ul:first-of-type li:nth-child(2){
+  color:green;
+}
