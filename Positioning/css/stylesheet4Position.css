@@ -1,0 +1,18 @@
+.wrap{
+  width:400px;
+  height:400px;
+  background: red;
+  margin: auto;
+  position: relative;
+  top:10px;
+}
+
+.inside{
+  width:100px;
+  height:100px;
+  background: green;
+  position: relative;
+  top:25px;
+  left:-10px;
+
+}
