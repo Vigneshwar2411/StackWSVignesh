@@ -255,6 +255,10 @@ footer,.container_12{
   color: #5c8a8a;
 }
 
+.finalcontent p{
+  margin-bottom:0;
+}
+
 
 footer,.container_12{
   clear:both;
