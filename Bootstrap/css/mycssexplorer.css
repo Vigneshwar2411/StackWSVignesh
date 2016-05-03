@@ -1,0 +1,292 @@
+/*Title CSS Start*/
+header{
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+    left:auto;
+    right:auto;
+}
+
+header h1{
+  background: url(../img/logo_exp.png) no-repeat;
+  border-right: 1px;
+  border-right-color: grey;
+  border-right-style:solid;
+  border-width: 2px;
+  text-indent: -9999px;
+  width:210px;
+  height:35px;
+  float:left;
+}
+
+span{
+  position:relative;
+  top:15px;
+  left:8px;
+  color:rgb(128,128,128);
+}
+
+/*title End*/
+
+
+/*Header CSS Start*/
+section{
+  background: url("../img/lunch+stop+2.jpg") no-repeat;
+  opacity: 0.9;
+  background-color: rgb(234, 241, 234);
+  background-size: cover;
+  background-position: 50% 50%;
+  height:700px;
+  position: relative;
+  top: 30px;
+  display:block;
+}
+
+section h1{
+    font-family: "Helvetica","Arial","sans-serif";
+    font-size: 64px;
+    line-height: 1em;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+}
+
+section p{
+  font-family: "Helvetica","Arial","sans-serif";
+  font-size: 20px;
+  line-height: 1em;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+}
+
+.subcontainer a{
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.subcontainer a:hover{
+  color:white;
+  text-transform: uppercase;
+}
+
+.subcontainer{
+  float:right;
+  padding-left: 20px;
+  padding-top: 150px;
+  width:600px;
+}
+
+/*Header CSS End*/
+
+/*Main content section CSS Start */
+
+.container_12{
+  padding-top: 50px;
+}
+
+.main{
+  padding-top: 15px;
+}
+
+#secondp{
+  position: relative;
+  left:10px;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 8px 0;
+  margin:0;
+  font-weight: 600;
+  color:rgb(128,128,128);
+}
+
+.grid_4 img{
+  width:100%;
+}
+
+.grid_4 h2,.grid_7 h2{
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  padding: 8px 0;
+  margin:0;
+  font-weight: 600;
+  color:#333;
+}
+
+.grid_4 h3,.grid_7 h3{
+  display:inline;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size:16px;
+  font-weight:300;
+  color:#444;
+  border:10px;
+}
+
+.grid_4 p, .grid_7 p{
+
+  letter-spacing: 0.5px;
+  padding: 8px 0;
+}
+
+.grid_4 img{
+  width:300px;
+  height: 220px;
+}
+
+/*Main content section CSS End */
+
+/*Article content section CSS Start */
+
+.article2{
+  position: relative;
+  top:25px;
+}
+
+.article2 h1{
+  background: url("../img/lighthouse1.jpg") no-repeat;
+  border-radius: 25px;
+  margin-top: 20px;
+  width: 380px;
+  height:285px;
+  text-indent:-9999px;
+}
+
+.grid_5 h1:hover{
+  transform: scale(1.1);
+  cursor :pointer;
+
+}
+
+article{
+  position: relative;
+  top:10px;
+}
+
+article h1{
+  background: url("../img/jeeps1.jpg") no-repeat;
+  border-radius: 25px;
+  margin-top: 20px;
+  width: 380px;
+  height:285px;
+  text-indent:-9999px;
+}
+
+/*Article content section CSS End */
+
+
+/*Footer CSS Start */
+.footer{
+  background : url("../img/finalBG1.jpg");
+  width:100%;
+  position: relative;
+  top: 100px;
+  bottom:0;
+  display:block;
+  background-size: cover;
+  background-position: 50% 50%;
+  height:600px;
+  padding:0;
+  }
+
+
+.footertext{
+  position: relative;
+  top: 300px;
+  text-align: center;
+  color:#5c8a8a;
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  display: inline;
+
+}
+
+.footer img{
+  width:50px;
+  background:none;
+}
+
+.footer nav{
+  text-align: center;
+  position: relative;
+  top:300px;
+  right:600px;
+}
+
+.finalcontent{
+  position: relative;
+  top:500px;
+  text-align: left;
+  font-size: 15px;
+  font-family: monospace;
+  font-style: normal;
+  color: #5c8a8a;
+}
+
+.finalcontent p{
+  padding :0;
+  margin:0;
+}
+
+
+footer,.container_12{
+  clear:both;
+}
+
+/*Footer CSS End */
+
+
+a:hover{
+  text-transform:uppercase;
+  color:grey;
+}
+
+
+
+.button{
+  border: 2px;
+  border-color: darkblue;
+  border-style: dotted;
+  border-radius: 25px;
+  border-color: white;
+}
+
+a:hover{
+  text-transform:uppercase;
+  color:grey;
+}
+
+.button{
+  border: 2px;
+  border-color: darkblue;
+  border-style: dotted;
+  border-radius: 25px;
+  border-color: white;
+}
+
+a{
+  text-decoration: none;
+  font-family:sans-serif;
+  color: rgb(128,128,128);
+}
+
+nav{
+  float:right;
+  text-align: right;
+  font-family:sans-serif;
+  font-weight: bold;
+}
+
+nav li{
+  display:inline;
+  color: #999;
+}
+
+img:hover{
+  transform: scale(1.1);
+  cursor :pointer;
+}

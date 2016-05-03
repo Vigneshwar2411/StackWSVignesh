@@ -1,0 +1,218 @@
+.container_12{
+  padding-top: 50px;
+}
+
+.grid_4{
+  padding-top: 10px;
+}
+
+.banner{
+  background :#b9b992;
+  position: relative;
+  left:auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  height:600px;
+}
+
+.banner h2{
+  font-family: monospace;
+  font-size: 30px;
+  text-align: center;
+  color:#FFFFFF;
+}
+
+.banner p{
+  font-family: monospace;
+  font-size: 20px;
+  padding-top: 10px;
+  text-align: center;
+  color:#FFFFFF;
+}
+
+#secondp{
+  padding-top:470px;
+}
+
+.hero{
+  background: url("../img/heroA1.png") no-repeat;
+  position: relative;
+  left:300px;
+  bottom:10px;
+  height:643px;
+  width:754px;
+}
+
+.main{
+  padding-top: 25px;
+}
+
+.grid_4 img{
+  width:100%;
+}
+
+.grid_4 h2,.grid_7 h2{
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 18px;
+  padding: 8px 0;
+  margin:0;
+  font-weight: 600;
+  color:#333;
+}
+
+img:hover{
+  transform: scale(1.1);
+  cursor :pointer;
+}
+
+.grid_4 h3,.grid_7 h3{
+  display:inline;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size:16px;
+  font-weight:300;
+  color:#444;
+}
+
+.grid_4 p, .grid_7 p{
+  letter-spacing: 0.5px;
+  padding: 8px 0;
+}
+
+.article2{
+  position: relative;
+  top:25px;
+}
+.article2 h1{
+  background: url("../img/fromWeb12.jpg") no-repeat;
+  border-radius: 25px;
+  margin-top: 20px;
+  width: 380px;
+  height:285px;
+  text-indent:-9999px;
+}
+
+.grid_5 h1:hover{
+  transform: scale(1.1);
+  cursor :pointer;
+}
+
+.sub a{
+  color:black;
+}
+
+.sub li{
+  margin: 0;
+}
+
+.sub li:after{
+  content: '\\';
+  color:black;
+}
+.sub li:last-child:after{
+  content:none;
+}
+
+.copyright{
+  float:left;
+}
+
+header{
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+    left:auto;
+    right:auto;
+}
+
+header h1{
+  background: url(../img/logo.png) no-repeat;
+  text-indent: -9999px;
+  width:192px;
+  height:35px;
+  float:left;
+}
+
+header h1:hover{
+  transform:scale(1.1);
+}
+
+a:hover{
+  text-transform:uppercase;
+  color:grey;
+}
+
+section{
+  position: relative;
+  top: 20px;
+  display:block;
+  background-color: #b9b992;
+}
+
+section h1{
+  padding-left: 200px;
+  font-family:monospace;
+}
+
+section h6{
+  display:inline;
+  padding-left: 200px;
+  font-family:sans-serif;
+}
+
+section nav{
+  padding-right: 210px;
+}
+
+}
+article{
+  position: relative;
+  top:30px;
+}
+
+article h1{
+  background: url("../img/tree.jpg") no-repeat;
+  border-radius: 25px;
+  margin-top: 20px;
+  width: 380px;
+  height:285px;
+  text-indent:-9999px;
+}
+
+footer{
+  position: relative;
+  top: 100px;
+}
+
+footer p{
+  display: inline;
+  text-align: right;
+}
+
+.footer{
+  padding-top: 20px;
+  border-top:1px solid #b9b992;
+}
+
+a{
+  text-decoration: none;
+  font-family:sans-serif;
+  color: rgb(128,128,128);
+}
+
+nav{
+  float:right;
+  text-align: right;
+  font-family:sans-serif;
+  font-weight: bold;
+}
+
+nav li{
+  display:inline;
+  color: #999;
+}
+
+footer,.container_12{
+  clear:both;
+}

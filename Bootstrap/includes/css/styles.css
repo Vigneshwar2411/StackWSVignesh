@@ -1,0 +1,379 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+  #features{
+    text-align: center;
+  }
+
+  #features img{
+    margin:0 0 20px;
+  }
+
+  .thumbnail{
+    margin:20px 0;
+  }
+
+  .col-lg-6 .thumbnail img{
+    height:300px;
+    width:100%;
+  }
+
+  .col-lg-6 .label{
+    position: absolute;
+    top:80px;
+    right:-5px;
+    padding:5px;
+  }
+
+  .col-lg-6 .label{
+    font-size:15px;
+  }
+
+  .col-lg-6 .label sup{
+    font-size:15px;
+    margin-right:3px;
+    font-weight: normal;
+  }
+
+  .thumbnail .label span{
+    margin-right: 8px;
+  }
+
+  .modal-content h4{
+    font-size:20px;
+    color:rgb(128,128,128);
+  }
+
+  footer .container-fluid{
+    padding:10px;
+  }
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+  body{
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+
+  .well .pageheader{
+    margin-top: 0;
+  }
+
+  .well .pageheader h1{
+    margin-top: 0;
+  }
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #SearchInput{
+     width:200px;
+   }
+
+  #barnav{
+    margin: 0;
+  }
+  .navbar-form{
+    padding:0;
+  }
+
+  #navicon .dropdown-toggle{
+    padding-left:5px;
+  }
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+    #myCarousel{
+      margin-top: 75px;
+    }
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+  .alert{
+    margin-top: 20px;
+    display: none;
+  }
+  .well{
+    margin:20px 0;
+  }
+
+  .row{
+    margin:0;
+  }
+
+  .tabbable a{
+    font-size:15px;
+  }
+
+  .tabbable img.thumbnail{
+    margin:0 15px 15px 15px;
+  }
+
+  .tabbable #tab2 h4{
+    margin:5px 15px 15px 15px;
+  }
+
+  .tab-content iframe{
+    padding:10px 0px;
+  }
+
+  #mobile{
+    margin-bottom:10px;
+  }
+
+  #moreAdventures h2{
+    margin-left:15px;
+    font-size:30px;
+    font-weight:500;
+    color:rgb(128,128,128);
+    font-family: sans-serif;
+  }
+
+  #moreAdventures h4{
+    font-size:20px;
+    font-weight:500;
+    color:rgb(128,128,128);
+    font-family: sans-serif;
+  }
+
+  footer .container-fluid{
+    background: url("../../img/finalBG.jpg");
+    width:100%;
+    background-position: 80% 20%;
+  }
+
+  footer h6{
+    color:#5c8a8a;
+    font-size:14px;
+  }
+
+  footer p{
+    color:#5c8a8a;
+  }
+
+  ul.unstyled{
+    list-style: none;
+    padding: 0;
+  }
+
+  .unstyled img{
+    width:25px;
+  }
+
+  ul .unstyled li{
+    color:#5c8a8a;
+  }
+
+  .unstyled a{
+    color:#5c8a8a;
+  }
+
+  #moreInfo{
+    padding-top:40px;
+  }
+  #moreInfo h3{
+    font-size:30px;
+    font-weight:500;
+    color:rgb(128,128,128);
+  }
+
+  .modal-dialog{
+    position: absolute;
+    left:35%;
+    top:-5%;
+  }
+
+  .button{
+    border: 2px;
+    border-style: dotted;
+    border-radius: 25px;
+    border-color: white;
+  }
+
+  .carousel-caption a{
+    text-decoration: none;
+  }
+
+  .carousel-caption a:hover{
+    text-transform:uppercase;
+  }
+
+  .list-group-item-heading h4{
+    font-size:20px;
+    color:orange;
+  }
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 767px) {
+
+  #myCarousel .item{
+      height:310px;
+  }
+
+  .carousel-caption h4{
+    font-size:18px;
+
+  }
+
+  .carousel-caption p{
+    font-size:12px;
+  }
+
+  .carousel-caption small{
+    font-size:10px;
+    color:white;
+  }
+
+  .carousel-caption a{
+    color:white;
+  }
+
+  #slide1{
+    background: url("../../imagescarousel/falls.jpg") top center no-repeat;
+    background-size:cover;
+    background-position:80% 20%;
+  }
+
+  #slide2{
+    background: url("../../imagescarousel/mountains.jpg") top center no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  #slide3{
+    background: url("../../imagescarousel/reflection.jpg") top center no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 768px) {
+
+  #myCarousel .item{
+      height:400px;
+  }
+
+  .carousel-caption{
+    text-align: right;
+  }
+
+  .carousel-caption h4{
+    font-size:30px;
+    color:darkblue;
+
+  }
+
+  .carousel-caption p{
+    font-size:18px;
+  }
+
+  .carousel-caption small{
+    font-size:15px;
+    color:white;
+  }
+
+  .carousel-caption a{
+    color:white;
+  }
+
+  #slide1{
+    background: url("../../imagescarousel/falls.jpg") top center no-repeat;
+    background-size:cover;
+    background-position:80% 20%;
+  }
+
+  #slide2{
+    background: url("../../imagescarousel/mountains.jpg") top center no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  #slide3{
+    background: url("../../imagescarousel/reflection.jpg") top center no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+  .carousel-caption{
+    text-align: right;
+    padding-bottom: 250px;
+  }
+
+  .carousel-caption h4{
+    font-size:50px;
+    color:darkblue;
+
+  }
+
+  .carousel-caption p{
+    font-size:24px;
+  }
+
+  .carousel-caption small{
+    font-size:20px;
+    color:white;
+  }
+
+  .carousel-caption a{
+    color:white;
+  }
+
+  #slide3 .carousel-caption{
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  #slide3 .carousel-caption h4{
+    color:#E7E7E7;
+  }
+
+  #myCarousel .item{
+      height:500px;
+  }
+
+
+  #slide1{
+    background: url("../../imagescarousel/falls.jpg") top center no-repeat;
+    background-size:cover;
+    background-position:80% 20%;
+  }
+
+  #slide2{
+    background: url("../../imagescarousel/mountains.jpg") top center no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  #slide3{
+    background: url("../../imagescarousel/reflection.jpg") top center no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+}
