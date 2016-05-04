@@ -1,0 +1,13 @@
+.main{
+  background: red;
+
+  border:50px;
+  border-color: yellow;
+  border-width: medium;
+  border-style: dashed;
+}
+
+.main h1{
+  background:green;
+  padding:0;
+}
